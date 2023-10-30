@@ -3,7 +3,7 @@
 |                         Nome                         | Matrícula |
 | :--------------------------------------------------: | :-------: |
 |  [Pedro Torreão](https://github.com/PedroTorreao21)  | 190036761 |
-|  [Matheus Perillo](https://github.com/MatheusPerillo) | 190093421 |
+| [Matheus Perillo](https://github.com/MatheusPerillo) | 190093421 |
 
 # Introdução
 
@@ -26,6 +26,30 @@ Neste método, os intervalos são organizados em ordem crescente com base em seu
 Esta solução utiliza o algoritmo "Agendamento para Minimizar Atrasos" com o objetivo de maximizar o número de cursos concluídos dentro dos prazos estabelecidos. O algoritmo percorre a lista de cursos, avaliando a possibilidade de concluir cada curso no prazo máximo determinado. Se não for viável, o algoritmo realiza uma substituição, trocando um curso com um prazo máximo maior pelo curso atual, desde que isso resulte em um atraso total menor.
 
 ![Course Schedule III](/images/630.jpeg)
+
+## [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/description/)
+
+Existem n voos rotulados de 1 a n.
+
+Você recebe uma série de reservas de voos, onde bookings[i] = [firsti, lasti, Seati] representa uma reserva para voos firsti até lasti (inclusive) com assentos assentos reservados para cada voo no intervalo.
+
+Retorna uma resposta de matriz de comprimento n, onde resposta[i] é o número total de assentos reservados para o voo i.
+
+![Corporate Flight Bookings](/images/1109.jpg)
+
+## [535. Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/description/)
+
+TinyURL é um serviço de encurtamento de URL onde você insere um URL como https://leetcode.com/problems/design-tinyurl e retorna um URL curto como http://tinyurl.com/4e9iAk. Projete uma classe para codificar um URL e decodificar um URL minúsculo.
+
+Não há restrição sobre como seu algoritmo de codificação/decodificação deve funcionar. Você só precisa garantir que um URL possa ser codificado em um URL minúsculo e que o URL minúsculo possa ser decodificado no URL original.
+
+Implemente a classe Solution:
+
+Solution() Inicializa o objeto do sistema.
+String encode (String longUrl) Retorna um pequeno URL para o longUrl fornecido.
+String decode(String shortUrl) Retorna o URL longo original para o shortUrl fornecido. É garantido que o shortUrl fornecido foi codificado pelo mesmo objeto.
+
+![Encode and Decode TinyURL](/images/535.jpg)
 
 # Instalação
 
